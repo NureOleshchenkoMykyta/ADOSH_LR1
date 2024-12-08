@@ -16,7 +16,7 @@ namespace ADOSH_LR1
         [STAThread]
         static void Main(string[] args)
         {
-            string filePath = "sample-15s.wav";
+            string filePath = "sukunas-ryoiki-tenkai.wav";
             int smoothingInterval = 5; // Интервал сглаживания в семплах
             int scanWindowStart = 200; // Начальная точка окна сканирования
             int scanWindowEnd = 700; // Конечная точка окна сканирования
